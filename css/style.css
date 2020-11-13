@@ -55,7 +55,6 @@ strong {
 /* VP + HEADER */
 
 .vp-container {
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
 }
@@ -108,6 +107,7 @@ header ul li a:hover {
 }
 
 .vp {
+  min-height: 100vh;
   flex: auto;
   display: flex;
   flex-direction: column;
@@ -138,7 +138,7 @@ header ul li a:hover {
 /* OFFER */
 
 .offer {
-  padding: 10rem 1rem;
+  padding: 8rem 1rem;
 }
 
 .offer-list {
@@ -162,6 +162,10 @@ header ul li a:hover {
 .offer-elem-text {
   padding: 2rem;
   text-align: center;
+}
+
+.offer-elem-text p {
+  font-size: 1rem;
 }
 
 .offer-separator {
@@ -200,6 +204,6 @@ header ul li a:hover {
 }
 
 .who-content-text p {
-  font-size: 0.7rem;
-  line-height: 1.3rem;
+  font-size: 1rem;
+  line-height: 1.8rem;
 }
