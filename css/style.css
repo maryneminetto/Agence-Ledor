@@ -9,6 +9,7 @@
 body {
   font-family: "Montserrat", sans-serif;
   background: #eeeeee;
+  color: #333;
 }
 
 p {
@@ -146,8 +147,21 @@ header ul li a:hover {
   border: 1px solid #dddddd;
   background: white;
   margin: 1rem;
+  flex: 1;
 }
 
 .offer-elem-img {
   width: 100%;
+}
+
+.offer-elem-text {
+  padding: 2rem;
+  text-align: center;
+}
+
+.offer-separator {
+  height: 1px;
+  width: 50px;
+  margin: 1rem auto;
+  background: #333;
 }
