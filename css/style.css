@@ -8,6 +8,7 @@
 
 body {
   font-family: "Montserrat", sans-serif;
+  background: #eeeeee;
 }
 
 p {
@@ -26,6 +27,25 @@ a {
   text-decoration: none;
 }
 
+strong {
+  color: #f1c40f;
+  font-weight: 400;
+}
+
+/* GENERIC */
+
+.container {
+  display: block;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.title {
+  font-weight: 300;
+  font-size: 2rem;
+  margin-bottom: 3rem;
+}
+
 /* VP + HEADER */
 
 .vp-container {
@@ -40,6 +60,7 @@ header {
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-between;
+  line-height: 1.8rem;
 }
 
 header a {
@@ -76,9 +97,57 @@ header ul li a:hover {
 }
 
 .vp-logo a {
-  font-size: 2.5rem;
+  font-size: 3rem;
+  font-weight: 300;
 }
 
 .vp {
   flex: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: url(../images/frame-1.jpg) center center / cover;
+}
+
+.vp-content {
+  max-width: 800px;
+  text-align: center;
+  color: white;
+}
+
+.vp-content h1 {
+  font-size: 3rem;
+  font-weight: 400;
+  margin-bottom: 2.3rem;
+}
+
+.vp-container p {
+  font-size: 1.5rem;
+  font-weight: 300;
+  letter-spacing: 1px;
+  line-height: 2rem;
+}
+
+/* OFFER */
+
+.offer {
+  padding: 10rem 1rem;
+}
+
+.offer-list {
+  display: flex;
+  flex-flow: row nowrap;
+  list-style: none;
+  justify-content: space-between;
+}
+
+.offer-elem {
+  border: 1px solid #dddddd;
+  background: white;
+  margin: 1rem;
+}
+
+.offer-elem-img {
+  width: 100%;
 }
