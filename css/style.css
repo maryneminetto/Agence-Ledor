@@ -59,6 +59,7 @@ em {
 /* VP + HEADER */
 
 .vp-container {
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
 }
@@ -184,10 +185,12 @@ header ul li a:hover {
 .who {
   display: flex;
   flex-flow: row nowrap;
+  min-height: 600px;
 }
 
 .who-content-img {
   flex: 1;
+  background: url(../images/team.jpg) center center / cover;
 }
 
 .who-content-img img {
@@ -215,7 +218,7 @@ header ul li a:hover {
 /* TESTIMONIALS */
 
 .testimonials {
-  padding: 5rem;
+  padding: 5rem 1rem 5rem 1rem;
 }
 
 .testimonials-content {
@@ -243,11 +246,8 @@ header ul li a:hover {
   font-size: 1.2rem;
 }
 
-.testimonial-elem-profil p {
+.testimonial-elem-profil-text p {
   font-weight: 700;
-}
-
-.testimonial-elem-profil p i {
   margin: 0.2rem;
 }
 
